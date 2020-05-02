@@ -1,5 +1,5 @@
 import axios from 'axios';
-const api='http://omdbapi.com/?apiKey=acde29e5&t=';
+const api='https://omdbapi.com/?apiKey=acde29e5&t=';
 export const searchmovie=({commit},moviename)=>{
 
         axios.get(`${api}${moviename}&type=movie`)
